@@ -7,122 +7,145 @@
 //        //            //Q2
 //        static void Main(string[] args)
 //        {
-
+//            //Q7
 //            Book book = new Book();
 
-//            Console.WriteLine(book.copiesInStock);
+//            book.Title = "Clean Code";
+
+//            Console.WriteLine(book.Title);
 //        }
 
 
 
 
-        //            //Q5
-
-        //            Book book = new Book();
-
-        //            Console.WriteLine(book.Password);
-        //        }
-        //    }
 
 
+            //Q6
 
+            //            Book book = new Book();
 
-
-
-        //            //Q4
-        //            PrintAllTitles("Clean Code", "C# Basics", "The Pragmatic Programmer");
-        //        }
+            //            Console.WriteLine(book.copiesInStock);
+            //        }
 
 
 
 
-        //    //Q3
-        //    PrintBookInfo(pages: 500, title: "Clean Code");
-        //}
+            //            //Q5
 
+            //            Book book = new Book();
 
-
-
-
-        //                PrintBookInfo("Clean Code");
-
-        //                PrintBookInfo("C# Basics", 400);
-        //            }
+            //            Console.WriteLine(book.Password);
+            //        }
+            //    }
 
 
 
 
 
 
-
-        //            double price;
-
-        //            if (TryGetPrice("Clean Code", out price))
-        //            {
-        //                Console.WriteLine(price);
-        //            }
-        //        }
+            //            //Q4
+            //            PrintAllTitles("Clean Code", "C# Basics", "The Pragmatic Programmer");
+            //        }
 
 
 
 
-        //        // Q1
-        //        public static bool TryGetPrice(string title, out double price)
-        //        {
-        //            if (title == "Clean Code")
-        //            {
-        //                price = 25.5;
-        //                return true;
-        //            }
-        //            else
-        //            {
-        //                price = 0;
-        //                return false;
-        //            }
-        //        }
-        //    }
-        //}
-
-
-        // Q2
-        //Q3
-        //    static void PrintBookInfo(string title, int pages = 300)
-        //{
-        //    Console.WriteLine(title);
-        //    Console.WriteLine(pages);
-        //}
-        //        }
-        //    }
+            //    //Q3
+            //    PrintBookInfo(pages: 500, title: "Clean Code");
+            //}
 
 
 
 
 
-        //Q4
-        //        static void PrintAllTitles(params string[] titles)
-        //        {
-        //            foreach (string title in titles)
-        //            {
-        //                Console.WriteLine(title);
-        //            }
-        //        }
-        //    }
+            //                PrintBookInfo("Clean Code");
 
-        //}
-
-        //Q5
-        //    class Book
-        //    {
-        //        private string password = "secret";
-        //        public string Password => password;
-        //    }
-        //}
+            //                PrintBookInfo("C# Basics", 400);
+            //            }
 
 
-        //Q6
-//        class Book
+
+
+
+
+
+            //            double price;
+
+            //            if (TryGetPrice("Clean Code", out price))
+            //            {
+            //                Console.WriteLine(price);
+            //            }
+            //        }
+
+
+
+
+            //        // Q1
+            //        public static bool TryGetPrice(string title, out double price)
+            //        {
+            //            if (title == "Clean Code")
+            //            {
+            //                price = 25.5;
+            //                return true;
+            //            }
+            //            else
+            //            {
+            //                price = 0;
+            //                return false;
+            //            }
+            //        }
+            //    }
+            //}
+
+
+            // Q2
+            //Q3
+            //    static void PrintBookInfo(string title, int pages = 300)
+            //{
+            //    Console.WriteLine(title);
+            //    Console.WriteLine(pages);
+            //}
+            //        }
+            //    }
+
+
+
+
+
+            //Q4
+            //        static void PrintAllTitles(params string[] titles)
+            //        {
+            //            foreach (string title in titles)
+            //            {
+            //                Console.WriteLine(title);
+            //            }
+            //        }
+            //    }
+
+            //}
+
+            //Q5
+            //    class Book
+            //    {
+            //        private string password = "secret";
+            //        public string Password => password;
+            //    }
+            //}
+
+
+            //Q6
+            //        class Book
+            //        {
+            //            internal int copiesInStock = 5;
+            //        }
+            //    }
+            //}
+
+
+            //Q7
+//            class Book
 //        {
-//            internal int copiesInStock = 5;
+//            public string Title;
 //        }
 //    }
 //}
