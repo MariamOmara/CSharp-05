@@ -8,14 +8,28 @@
 //        static void Main(string[] args)
 //        {
 
-//            //Q10
+//            //Q11
 
-//            int genreNumber = 1;
+//            string genreText = "Science";
 
-//            Genre genre = (Genre)genreNumber;
+//            Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
 
 //            Console.WriteLine(genre);
 //        }
+
+
+
+
+
+
+        //            //Q10
+
+        //            int genreNumber = 1;
+
+        //            Genre genre = (Genre)genreNumber;
+
+        //            Console.WriteLine(genre);
+        //        }
 
 
 
@@ -193,6 +207,7 @@
         //Q8
         //Q9
         //Q10
+        //Q11
 //        enum Genre
 //        {
 //            Fiction,
